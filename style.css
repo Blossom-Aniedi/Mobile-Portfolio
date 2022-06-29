@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  margin-left: 20px;
+}
+
+.name {
+  height: 22%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 27%;
+  margin-left: 6%;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.description {
+  height: 15%;
+  margin-left: 6%;
+  margin-top: 6%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #344563;
+  font-style: normal;
+}
+
+.connect {
+  color: #7f8cff;
+  margin-left: 6%;
+  margin-top: 19%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+section {
+  display: flex;
+  height: 615px;
+  background: url(./image/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0 0 0 90px;
+}
+
+.icons {
+  display: flex;
+  margin-left: 6%;
+  margin-top: 2%;
+}
