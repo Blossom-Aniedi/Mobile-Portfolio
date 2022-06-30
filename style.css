@@ -1,12 +1,17 @@
 * {
   padding: 0;
   margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 img {
@@ -14,8 +19,7 @@ img {
   cursor: pointer;
 }
 
-.nav h6 {
-  font-family: 'Poppins', sans-serif;
+.nav p {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
@@ -23,46 +27,37 @@ img {
 }
 
 .name {
-  height: 22%;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  margin-top: 27%;
-  margin-left: 6%;
   line-height: 52px;
   color: #172b4d;
 }
 
 .description {
-  height: 15%;
-  margin-left: 6%;
-  margin-top: 6%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
+  max-width: 700px;
   font-weight: 400;
-  line-height: 23px;
+  padding: 12px 0;
   color: #344563;
-  font-style: normal;
+  line-height: 23px;
 }
 
 .connect {
   color: #7f8cff;
-  margin-left: 6%;
-  margin-top: 19%;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
+  padding-bottom: 12px;
   line-height: 24px;
 }
 
-section {
+.heading-section {
   display: flex;
-  height: 615px;
   background: url(./image/header-shapes\ mobile.png);
   background-repeat: no-repeat;
+  background-size: 100%;
   object-fit: contain;
+  padding: 114px 24px;
   flex-direction: column;
   background-color: #fff;
   border-radius: 0 0 0 90px;
@@ -70,6 +65,4 @@ section {
 
 .icons {
   display: flex;
-  margin-left: 6%;
-  margin-top: 2%;
 }
